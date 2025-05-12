@@ -1,0 +1,44 @@
+ClassId,SignName
+0,Hız Limiti (20km/h)
+1,Hız Limiti (30km/h)
+2,Hız Limiti (50km/h)
+3,Hız Limiti (60km/h)
+4,Hız Limiti (70km/h)
+5,Hız Limiti (80km/h)
+6,Hız Limiti Sonu (80km/h)
+7,Hız Limiti (100km/h)
+8,Hız Limiti (120km/h)
+9,Sollama Yasak
+10,Kamyonların Sollaması Yasak
+11,Ana Yol - Tali Yol Kavşağı
+12,Anayol
+13,Yol Ver
+14,Dur
+15,Araç Trafiğine Kapalı Yol
+16,Kamyon Giremez
+17,Girilmez
+18,Genel Tehlike
+19,Sola Tehlikeli Viraj
+20,Sağa Tehlikeli Viraj
+21,Tehlikeli Virajlar
+22,Bozuk Yol
+23,Kaygan Yol
+24,Sağdan Daralan Yol
+25,Yol Çalışması
+26,Trafik Işıkları
+27,Yaya Geçidi
+28,Okul Bölgesi
+29,Bisiklet Geçebilir
+30,Kar Yağışı
+31,Vahşi Hayvan Geçebilir
+32,Hız Sınırı ve Sollama Kısıtlamaları Sona Erdi
+33,Sağa Mecburi Yön
+34,Sola Mecburi Yön
+35,İleri Mecburi Yön
+36,İleri veya Sağa Mecburi Yön
+37,İleri veya Sola Mecburi Yön
+38,Sağdan Gidiniz
+39,Soldan Gidiniz
+40,Dönel Kavşak
+41,Sollama Yasağı Sona Erdi
+42,Kamyonların Sollama Yasağı Sona Erdi 
