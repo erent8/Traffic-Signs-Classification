@@ -1,44 +1,45 @@
-# Trafik İşaretleri Sınıflandırması
+# Traffic Sign Classification
 
-Bu proje, Evrişimli Sinir Ağları (CNN) kullanarak trafik işaretlerini sınıflandırmayı amaçlamaktadır. German Traffic Sign Recognition Benchmark (GTSRB) veri seti kullanılarak eğitilmiştir.
+In this project, Convolutional Neural Networks (CNN) provide lighting using traffic signs. The German Traffic Sign Recognition Benchmark (GTSRB) dataset is managed.
 
-## Kurulum
+## Installation
 
-Gerekli kütüphaneleri yüklemek için:
+To register the required subscriptions:
 
-```bash
+``` bash
 pip install -r requirements.txt
 ```
+## Dataset
 
-## Veri Seti
+The [German Traffic Sign Recognition Benchmark (GTSRB)](https://benchmark.ini.rub.de/gtsrb_news.html) dataset has just been released. To download the dataset:
 
-[German Traffic Sign Recognition Benchmark (GTSRB)](https://benchmark.ini.rub.de/gtsrb_news.html) veri setini kullanmaktadır. Veri setini indirmek için:
+1. Visit [GTSRB web systems](https://benchmark.ini.rub.de/gtsrb_dataset.html).
 
-1. [GTSRB web sitesini](https://benchmark.ini.rub.de/gtsrb_dataset.html) ziyaret edin.
-2. "Download the dataset" bölümünden veri setini indirin.
-3. İndirdiğiniz veri setini `data` klasörü içine çıkartın.
+2. Download the dataset from the "Download dataset" section.
 
-## Kullanım
+3. Extract the downloaded dataset to `data`.
 
-Model eğitimi için:
+## Usage
 
-```bash
+For model training:
+
+``` bash
 python train.py
 ```
 
-Test görüntüleri üzerinde tahmin yapmak için:
+For making predictions on test details:
 
-```bash
-python predict.py --image_path path/to/your/image.jpg
+``` bash
+python predict.py --image_path/to/your/image.jpg
 ```
 
-## Proje Yapısı
+## Project Structure
 
-- `data/`: Veri seti dosyaları
-- `models/`: Eğitilmiş model dosyaları
-- `src/`: Kaynak kodlar
-  - `data_loader.py`: Veri yükleme ve ön işleme 
-  - `model.py`: CNN model tanımı
-  - `train.py`: Model eğitimi
-  - `predict.py`: Tahmin yapma
-- `notebooks/`: Jupyter not defterleri (veri keşfi ve analiz için) 
+- `data/`: Dataset files
+- `models/`: Trained model files
+- `src/`: Source codes
+- `data_loader.py`: Data loading and preprocessing
+- `model.py`: CNN model definition
+- `train.py`: Model training
+- `predict.py`: Prediction
+- `notebooks/`: Jupyter notebooks (for data mining and analysis)
